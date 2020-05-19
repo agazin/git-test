@@ -1,0 +1,7 @@
+git checkout dev;
+git merge --no-ff origin/dev-hotfix;
+git branch -m dev-pong
+git checkout dev
+git merge --no-ff dev-pong
+git push;
+git branch -d dev-pong
