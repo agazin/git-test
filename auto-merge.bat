@@ -11,3 +11,4 @@ git push
 git checkout dev-hotfix
 git merge dev
 git push
+git branch -d dev-pong
