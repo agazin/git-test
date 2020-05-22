@@ -1,0 +1,10 @@
+git checkout dev-hotfix
+git fetch
+git pull
+git checkout dev
+git pull
+git merge --no-ff dev-hotfix
+git branch -m dev-pong
+git checkout dev
+git merge --no-ff dev-pong
+git push
