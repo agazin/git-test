@@ -1,5 +1,5 @@
-git checkout dev-hotfix
 git fetch
+git checkout dev-hotfix
 git pull
 git checkout dev
 git pull
